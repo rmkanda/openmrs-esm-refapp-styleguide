@@ -21,3 +21,27 @@
   min-width: 100px !important;
   min-height: 45px;
 }
+
+.highlight {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.sub-text {
+  font-size: 12px;
+}
+
+.regular {
+  font-size: 16px;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.center {
+  text-align: center !important;
+}
