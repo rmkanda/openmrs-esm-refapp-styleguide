@@ -23,7 +23,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(woff2|woff|ttf|eot|svg)?$/,
+        test: /\.(woff2|woff|ttf|eot|svg|png)?$/,
         use: ["file-loader"]
       },
       {
