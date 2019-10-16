@@ -1,3 +1,49 @@
+body {
+  background: white !important;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  height: var(--omrs-topnav-height);
+  margin: 0px 7% !important;
+  width: 86% !important;
+  background: var(--header-green);
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  color: white !important;
+}
+
+.header a,
+.header a:visited,
+.header a:active {
+  color: white !important;
+}
+
+.content {
+  position: absolute;
+  top: var(--omrs-topnav-height);
+  left: 0px;
+  margin: 20px 7% !important;
+  width: 86% !important;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+}
+
+.logo span {
+  background: url(../node_modules/@openmrs/style-referenceapplication/src/images/openmrs-with-title-small.png)
+    no-repeat !important;
+  width: 150px;
+  height: 60px;
+  display: block;
+  background-size: 150px 60px !important;
+}
+
 .svg-icon {
   display: inline-block;
   width: 24px;
@@ -17,7 +63,7 @@
   background: url(./img/graph.svg) no-repeat;
 }
 
-.small {
+.small-button {
   min-width: 100px !important;
   min-height: 45px;
 }

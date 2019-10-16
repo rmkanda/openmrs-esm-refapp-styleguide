@@ -2,17 +2,28 @@
   "name": "@openmrs/esm-styleguide",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/openmrs-esm-refapp-styleguide.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@openmrs/style-referenceapplication": "^0.1.0"
   },
+  "directories": {
+    "lib": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmrs/openmrs-esm-refapp-styleguide"
+  },
+  "keywords": [
+    "openmrs",
+    "refapp",
+    "styleguide"
+  ],
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "clean-webpack-plugin": "^3.0.0",
