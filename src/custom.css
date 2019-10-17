@@ -31,17 +31,28 @@ body {
 }
 
 .logo {
-  width: 150px;
+  width: 170px;
   height: 60px;
 }
 
 .logo span {
   background: url(../node_modules/@openmrs/style-referenceapplication/src/images/openmrs-with-title-small.png)
     no-repeat !important;
-  width: 150px;
+  width: 170px;
   height: 60px;
   display: block;
-  background-size: 150px 60px !important;
+  background-size: 170px 60px !important;
+}
+
+.breadcrumb {
+  color: var(--header-green);
+  margin-bottom: 10px;
+}
+
+.breadcrumb a,
+.breadcrumb a:visited,
+.breadcrumb a:active {
+  color: var(--header-green);
 }
 
 .svg-icon {
