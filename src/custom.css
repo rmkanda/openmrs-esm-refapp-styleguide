@@ -74,6 +74,10 @@ body {
   background: url(./img/graph.svg) no-repeat;
 }
 
+.text-color {
+  color: var(--text);
+}
+
 .small-button {
   min-width: 100px !important;
   min-height: 45px;
