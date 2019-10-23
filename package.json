@@ -5,7 +5,8 @@
   "main": "dist/openmrs-esm-refapp-styleguide.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
   },
   "author": "",
   "license": "MIT",
