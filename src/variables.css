@@ -17,7 +17,7 @@
   --lighter-grey: #f3f3f3;
 
   /*openMrs colors*/
-  --highlight: darken(#009384, 15%);
+  --highlight: #1c9b85;
   --text: darken(#5b57a6, 20%);
   --subtle-text: darken(var(--darker-grey), 25%);
   --subtler-text: var(--darker-grey);
