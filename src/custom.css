@@ -90,10 +90,12 @@ body {
 
 .sub-text {
   font-size: 12px;
+  white-space: normal;
 }
 
 .regular {
   font-size: 16px;
+  white-space: normal;
 }
 
 .circle {
